@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virelia | Modern Fashion & Style</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#fafafa;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#111;
+    color:white;
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),
+    url('https://images.unsplash.com/photo-1496747611176-843222e1e57?w=1600');
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#fff;
+    color:#111;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+.section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.section h2{
+    margin-bottom:20px;
+    font-size:36px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:40px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.social a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">VIRELIA</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#collection">Collection</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h1>VIRELIA</h1>
+        <p>Elevate Your Style. Define Your Presence.</p>
+        <a href="#collection" class="btn">Explore Collection</a>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Virelia</h2>
+    <p>
+        Virelia is a modern fashion brand focused on elegance,
+        confidence, and timeless style. Our designs blend
+        contemporary trends with premium quality to create
+        pieces that inspire individuality.
+    </p>
+</section>
+
+<section id="collection" class="section">
+    <h2>Our Fashion Categories</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Women's Fashion</h3>
+            <p>Modern, elegant, and trend-driven collections.</p>
+        </div>
+
+        <div class="card">
+            <h3>Accessories</h3>
+            <p>Complete your look with stylish accessories.</p>
+        </div>
+
+        <div class="card">
+            <h3>Seasonal Trends</h3>
+            <p>Curated fashion inspiration for every season.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: hello@virelia.com</p>
+    <p>Follow us on Pinterest and social media for daily inspiration.</p>
+</section>
+
+<footer>
+    <p>© 2026 Virelia. All Rights Reserved.</p>
+    <div class="social">
+        <a href="#">Pinterest</a>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+    </div>
+</footer>
+
+</body>
+</html>
